@@ -1,0 +1,38 @@
+input {
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.email-input {
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+
+button {
+  padding-right: 143px;
+  padding-left: 143px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: rgb(38, 129, 233);
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
