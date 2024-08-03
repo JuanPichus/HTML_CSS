@@ -1,0 +1,40 @@
+.user-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: top;
+}
+
+.text-box {
+  border: none;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+.tweet-button {
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(27, 136, 209);
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.tweet-button:hover {
+  opacity: 0.8;
+}
+
+.tweet-button:active {
+  opacity: 0.6;
+}
